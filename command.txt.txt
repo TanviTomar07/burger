@@ -1,0 +1,10 @@
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status 
+ssh-keygen -t ed25519 -C "abhi20030827@gmail.com"
+git remote add origine git@github.com:Abhishek0827/Cloud-Kitchen.git
+git push origin master
+
+cat /c/Users/abhi2/.ssh/id_ed25519.pub
